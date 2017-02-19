@@ -1,0 +1,15 @@
+extends index.pug
+
+block styles
+
+block head
+	title= errorMessage
+
+block scripts
+
+block content
+	h1= errorCode
+	p= errorMessage
+	img(
+		src=image
+	)
